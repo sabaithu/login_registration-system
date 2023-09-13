@@ -1,8 +1,8 @@
 <?php
 	 $server = 'localhost';
 	 $name   = 'root';
-	 $pass	 = '123';
-	 $db_name= 'seikowall';
+	 $pass	 = '';
+	 $db_name= '';
 	  $db = mysqli_connect($server,$name,$pass, $db_name);
 
 	  if($db == false){
